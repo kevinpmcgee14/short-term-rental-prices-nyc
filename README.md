@@ -1,7 +1,7 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 
 
-This project was completed as part of the [Udacity Machine Learning DevOps Engineer NanoDegree](#https://www.udacity.com/course/machine-learning-dev-ops-engineer-nanodegree--nd0821). And an initial project starter was forked from [here](#https://github.com/udacity/nd0821-c2-build-model-workflow-starter). The project prompt is as follows:
+This project was completed as part of the [Udacity Machine Learning DevOps Engineer NanoDegree](https://www.udacity.com/course/machine-learning-dev-ops-engineer-nanodegree--nd0821). And an initial project starter was forked from [here](https://github.com/udacity/nd0821-c2-build-model-workflow-starter). The project prompt is as follows:
 
 ```
 You are working for a property management company renting rooms and properties for short periods of 
@@ -14,10 +14,10 @@ In this project you will build such a pipeline.
 
 ## Project Results
 
-* [GitHub Repo](#https://github.com/kevinpmcgee14/short-term-rental-prices-nyc)
-* [W&B Project](#https://wandb.ai/kevin_mcgee/nyc_airbnb?workspace=user-kevin_mcgee)
-* [W&B Final Run](#https://wandb.ai/kevin_mcgee/nyc_airbnb/runs/12dd8o1k?workspace=user-kevin_mcgee)
-* [W&B Produciton Model Artifact](#https://wandb.ai/kevin_mcgee/nyc_airbnb/artifacts/model_export/random_forest_export/6e29e7f00a6cf4c29a05)
+* [GitHub Repo](https://github.com/kevinpmcgee14/short-term-rental-prices-nyc)
+* [W&B Project](https://wandb.ai/kevin_mcgee/nyc_airbnb?workspace=user-kevin_mcgee)
+* [W&B Final Run](https://wandb.ai/kevin_mcgee/nyc_airbnb/runs/12dd8o1k?workspace=user-kevin_mcgee)
+* [W&B Produciton Model Artifact](https://wandb.ai/kevin_mcgee/nyc_airbnb/artifacts/model_export/random_forest_export/6e29e7f00a6cf4c29a05)
 
 ## Final Pipeline
 ![Final Pipeline](FinalPipeline.png?raw=true)
