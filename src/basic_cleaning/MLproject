@@ -23,11 +23,11 @@ entry_points:
 
       min_price:
         description: The minimum price that will be used to drop outliers
-        type: string
+        type: float
 
       max_price:
         description: The maximum price that will be used to drop outliers
-        type: string
+        type: float
 
 
     command: >-
