@@ -1,0 +1,34 @@
+name: basic_cleaning
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+
+      input_artifact:
+        description: The name of the input artifact from W&B.
+        type: string
+
+      output_artifact:
+        description: The name of the W&B Artifact that we will write out after cleaning
+        type: string
+
+      output_type:
+        description: The type of the W&B Artifact
+        type: string
+
+      output_description:
+        description: The description of the W&B Artifact
+        type: string
+
+      min_price:
+        description: The minimum price that will be used to drop outliers
+        type: string
+
+      max_price:
+        description: The maximum price that will be used to drop outliers
+        type: string
+
+
+    command: >-
+        python run.py  --input_artifact {input_artifact}  --output_artifact {output_artifact}  --output_type {output_type}  --output_description {output_description}  --min_price {min_price}  --max_price {max_price} 
